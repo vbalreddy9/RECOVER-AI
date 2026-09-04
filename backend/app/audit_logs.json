@@ -1,0 +1,319 @@
+[
+    {
+        "audit_id": "AUD-0001",
+        "timestamp": "2026-09-04T04:38:31.751678",
+        "action": "RECOVERY_EXECUTED",
+        "execution_id": "EXEC-20260904043831",
+        "status": "COMPLETED",
+        "total_candidates": 3,
+        "recovered_count": 2,
+        "pending_count": 1,
+        "recovered_amount": 28366.0,
+        "execution_results": [
+            {
+                "transaction_id": "TXN-100452",
+                "amount": 14281.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.0,
+                "execution_status": "RECOVERED"
+            },
+            {
+                "transaction_id": "TXN-100461",
+                "amount": 14085.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.0,
+                "execution_status": "RECOVERED"
+            },
+            {
+                "transaction_id": "TXN-100494",
+                "amount": 14073.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.0,
+                "execution_status": "PENDING"
+            }
+        ]
+    },
+    {
+        "audit_id": "AUD-0002",
+        "timestamp": "2026-09-04T04:39:15.667584",
+        "action": "RECOVERY_EXECUTED",
+        "execution_id": "EXEC-20260904043915",
+        "status": "COMPLETED",
+        "total_candidates": 3,
+        "recovered_count": 2,
+        "pending_count": 1,
+        "recovered_amount": 28366.0,
+        "execution_results": [
+            {
+                "transaction_id": "TXN-100452",
+                "amount": 14281.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.0,
+                "execution_status": "RECOVERED"
+            },
+            {
+                "transaction_id": "TXN-100461",
+                "amount": 14085.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.0,
+                "execution_status": "RECOVERED"
+            },
+            {
+                "transaction_id": "TXN-100494",
+                "amount": 14073.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.0,
+                "execution_status": "PENDING"
+            }
+        ]
+    },
+    {
+        "audit_id": "AUD-0003",
+        "timestamp": "2026-09-04T14:15:13.349091",
+        "action": "RECOVERY_EXECUTED",
+        "execution_id": "EXEC-20260904141513",
+        "status": "COMPLETED",
+        "total_candidates": 3,
+        "recovered_count": 2,
+        "pending_count": 1,
+        "recovered_amount": 29224.0,
+        "execution_results": [
+            {
+                "transaction_id": "TXN-100457",
+                "amount": 14770.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 87.5,
+                "execution_status": "RECOVERED"
+            },
+            {
+                "transaction_id": "TXN-100441",
+                "amount": 14454.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 87.39,
+                "execution_status": "RECOVERED"
+            },
+            {
+                "transaction_id": "TXN-100499",
+                "amount": 13424.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 87.04,
+                "execution_status": "PENDING"
+            }
+        ]
+    },
+    {
+        "audit_id": "AUD-0004",
+        "timestamp": "2026-09-04T14:20:40.435012",
+        "action": "RECOVERY_EXECUTED",
+        "execution_id": "EXEC-20260904142040",
+        "status": "COMPLETED",
+        "total_candidates": 3,
+        "recovered_count": 3,
+        "pending_count": 0,
+        "recovered_amount": 43426.0,
+        "execution_results": [
+            {
+                "transaction_id": "TXN-100444",
+                "amount": 14758.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.11,
+                "priority_score": 92.38,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100457",
+                "amount": 14665.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.08,
+                "priority_score": 92.17,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100462",
+                "amount": 14003.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.85,
+                "priority_score": 90.66,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            }
+        ]
+    },
+    {
+        "audit_id": "AUD-0005",
+        "timestamp": "2026-09-04T14:23:50.935078",
+        "action": "RECOVERY_EXECUTED",
+        "execution_id": "EXEC-20260904142350",
+        "status": "COMPLETED",
+        "total_candidates": 3,
+        "recovered_count": 3,
+        "pending_count": 0,
+        "recovered_amount": 43426.0,
+        "execution_results": [
+            {
+                "transaction_id": "TXN-100444",
+                "amount": 14758.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.11,
+                "priority_score": 92.38,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100457",
+                "amount": 14665.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.08,
+                "priority_score": 92.17,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100462",
+                "amount": 14003.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.85,
+                "priority_score": 90.66,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            }
+        ]
+    },
+    {
+        "audit_id": "AUD-0006",
+        "timestamp": "2026-09-04T14:51:26.489582",
+        "action": "RECOVERY_EXECUTED",
+        "execution_id": "EXEC-20260904145126",
+        "status": "COMPLETED",
+        "total_candidates": 3,
+        "recovered_count": 3,
+        "pending_count": 0,
+        "recovered_amount": 43426.0,
+        "execution_results": [
+            {
+                "transaction_id": "TXN-100444",
+                "amount": 14758.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.11,
+                "priority_score": 92.38,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100457",
+                "amount": 14665.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.08,
+                "priority_score": 92.17,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100462",
+                "amount": 14003.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.85,
+                "priority_score": 90.66,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            }
+        ]
+    },
+    {
+        "audit_id": "AUD-0007",
+        "timestamp": "2026-09-04T20:17:08.029528",
+        "action": "RECOVERY_EXECUTED",
+        "execution_id": "EXEC-20260904201708",
+        "status": "COMPLETED",
+        "total_candidates": 3,
+        "recovered_count": 3,
+        "pending_count": 0,
+        "recovered_amount": 43426.0,
+        "execution_results": [
+            {
+                "transaction_id": "TXN-100444",
+                "amount": 14758.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.11,
+                "priority_score": 92.38,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100457",
+                "amount": 14665.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.08,
+                "priority_score": 92.17,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100462",
+                "amount": 14003.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.85,
+                "priority_score": 90.66,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            }
+        ]
+    },
+    {
+        "audit_id": "AUD-0008",
+        "timestamp": "2026-09-04T22:42:28.407569",
+        "action": "RECOVERY_EXECUTED",
+        "execution_id": "EXEC-20260904224228",
+        "status": "COMPLETED",
+        "total_candidates": 3,
+        "recovered_count": 3,
+        "pending_count": 0,
+        "recovered_amount": 43426.0,
+        "execution_results": [
+            {
+                "transaction_id": "TXN-100444",
+                "amount": 14758.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.11,
+                "priority_score": 92.38,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100457",
+                "amount": 14665.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 89.08,
+                "priority_score": 92.17,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            },
+            {
+                "transaction_id": "TXN-100462",
+                "amount": 14003.0,
+                "strategy": "SMART_RETRY",
+                "recovery_probability": 88.85,
+                "priority_score": 90.66,
+                "safety_validated": true,
+                "execution_status": "RECOVERED",
+                "execution_reason": "High-confidence recovery candidate successfully processed."
+            }
+        ]
+    }
+]
